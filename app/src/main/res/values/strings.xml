@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">ShanthiGarment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_openDrawer">openDrawer</string>
+    <string name="nav_closeDrawer">closeDrawer</string>
+    <string name="tv_deal">DEAL OF THE WEEK</string>
+    <string name="tv_view_all">View All</string>
+    <string name="iv_notification">NOTIFICATION</string>
+    <string name="iv_new_arrival">NEW ARRIVAL</string>
+    <string name="iv_shop">SHOP</string>
+    <string name="iv_loyalty">LOYALTY</string>
+    <string name="tv_feedback_title">FeedBack</string>
+    <string name="tv_feedback_name">Name</string>
+    <string name="tv_feedback_email">Email</string>
+    <string name="tv_feedback_phno">Phone number</string>
+    <string name="tv_feedback_loyalty_no">Loyalty card number</string>
+    <string name="tv_feedback_description">Write your feedback...</string>
+    <string name="btn_feedback_submit">Submit</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_pwd">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_new_user">New user</string>
+    <string name="tv_forgot_pwd">Forgot Password?</string>
+
+    <string name="tv_register_title">Register</string>
+    <string name="tv_register_name">First name</string>
+    <string name="tv_register_lastname">Last name</string>
+    <string name="tv_register_email">Email</string>
+    <string name="tv_register_dob">Date of birth</string>
+    <string name="tv_register_phno">Phone number</string>
+    <string name="tv_register_loyalty_no">Loyalty card number</string>
+    <string name="tv_register_pwd">Password</string>
+    <string name="tv_register_confirm_pwd">Confirm password</string>
+    <string name="tv_register_refer">Referral code</string>
+    <string name="btn_register_submit">Submit</string>
+
+    <string name="et_forgot_email_hint">eMail address</string>
+    <string name="btn_forgot_ok">OK</string>
+    <string name="btn_forgot_cancel">CANCEL</string>
+
+
+    <string name="tv_wishlist_title">WishList</string>
+    <string name="tv_wishlist_name">Name</string>
+    <string name="tv_wishlist_email">Email</string>
+    <string name="tv_wishlist_phno">Phone number</string>
+    <string name="tv_wishlist_loyalty_no">Loyalty card number</string>
+    <string name="tv_wishlist_description">Write your wishlist...</string>
+    <string name="btn_wishlist_submit">Submit</string>
+
+    <string name="edit_profile_title">Update Profile</string>
+    <string name="edit_profile_firstname">First name</string>
+    <string name="edit_profile_lastname">Last name</string>
+    <string name="edit_profile_email">Email</string>
+    <string name="edit_profile_dob">Date of birth</string>
+    <string name="edit_profile_phone">Phone number</string>
+    <string name="edit_profile_loyalty_no">Loyalty card number</string>
+    <string name="edit_profile_pwd">Password</string>
+    <string name="edit_profile_submit">Submit</string>
+
+    <string-array name="spinner_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="ch_name">Brand:</string>
+    <string name="ch_invoice_no">Invoice:</string>
+    <string name="ch_sales_date">Date:</string>
+    <string name="ch_qty">Quantity:</string>
+    <string name="ch_total">Rs.</string>
+
+    <string-array name="spn_men">
+        <item>Choose size</item>
+        <item>A</item>
+        <item>M</item>
+        <item>xl</item>
+        <item>S</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+
+    </string-array>
+    <string-array name="spn_women">
+        <item>Choose size</item>
+        <item>A</item>
+        <item>M</item>
+        <item>xl</item>
+        <item>S</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="spn_kid">
+        <item>Choose size</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+
+    </string-array>
+    <string name="pro_name">Brand:</string>
+    <string name="pro_size">Size:</string>
+    <string name="pro_price">Rs.</string>
+    <string name="Spinnerhint">Choose Size</string>
+
+    <string name="cart_brand_name">Brand:</string>
+    <string name="cart_brand_size">Size:</string>
+    <string name="cart_brand_price">Rs.</string>
+    <string name="cart_brand_desc">Description :</string>
+    <string name="cart_brand_qty">Quantity:</string>
+    <string name="cart_brand_total">Total Rs.</string>
+    <string name="cart_coupon">Coupon</string>
+    <string name="btn_cart_coupon">CHECK</string>
+    <string name="cart_final_price">Final Rs.</string>
+    <string name="btn_cart">ADD TO CART</string>
+    <string name="btn_buy">BUY NOW</string>
+
+
+    <string name="co_btn_chk_out">CHECKOUT</string>
+    <string name="co_brand_name">Brand:</string>
+    <string name="co_brand_size">Size:</string>
+    <string name="co_brand_price">Price:</string>
+    <string name="co_brand_qty">Quantity:</string>
+    <string name="co_brand_total">Total Rs.</string>
+    <string name="tv_checkout_details_title">CheckOut Details</string>
+    <string name="tv_register_address">Address</string>
+    <string name="tv_register_address_line1">Address Line 1</string>
+    <string name="tv_register_address_line2">Address Line 2</string>
+    <string name="tv_register_address_line3">Address Line 3</string>
+    <string name="tv_register_address_city">City</string>
+    <string name="tv_register_address_pinno">Pin No</string>
+    <string name="tv_register_address_state">State</string>
+    <string name="tv_register_address_country">Country</string>
+
+</resources>

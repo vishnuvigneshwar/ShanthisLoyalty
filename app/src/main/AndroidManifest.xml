@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tritonitsolutions.layaltydemo"
+    android:installLocation="auto">
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <uses-permission android:name="myapp.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tritonitsolutions.loyaltydemo.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.ShopActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.FeedbackActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.NewArrivalActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.UpdateProfileActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.NotificationOffer"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.NewUserActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.LoyaltyHistoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.WishListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.LoyaltyActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.CustomerHistoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.ShopCategoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.tritonitsolutions.loyaltydemo.CategoryDetailActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.tritonitsolutions.loyaltydemo.FinalCartActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.tritonitsolutions.loyaltydemo.ShopLocator"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.ReferAFriend"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.CheckOutActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.NotificationActivty"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.NoticationDelivery"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.tritonitsolutions.loyaltydemo.CheckOutDetails"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDxVNhBR0Gm3r6KotEuA3fxp0b3B9F2PD0" />
+
+    </application>
+
+</manifest>

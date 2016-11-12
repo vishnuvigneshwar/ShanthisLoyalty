@@ -1,0 +1,478 @@
+TASK com.tritonitsolutions.layaltydemo id=21
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.CheckOutActivity e94635 pid=11508
+    Local FragmentActivity 52e44a6 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.CheckOutActivity@52e44a6
+      mContainer=android.support.v4.app.FragmentActivity$2@c01fee7
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{62e1a94 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{32993d V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{26a0532 G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{b65a283 V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{61c4c00 V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{1348c39 G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{32f427e V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.RelativeLayout{cd5e3df V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{ffa282c V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{3c8b2f5 V.ED.... ... 48,43-481,124}
+                    android.support.v7.widget.ActionMenuView{179088a V.E..... ... 936,0-1080,168}
+                      android.widget.RelativeLayout{5dedefb V.E..... ... 0,0-144,168 #7f0e0108 app:id/badge}
+                        android.widget.ImageView{8f79b18 V.ED.... ... 0,38-92,130 #7f0e00fc app:id/img}
+                        android.support.v7.widget.AppCompatTextView{f3e8971 V.ED.... ... 96,38-120,95 #7f0e00fd app:id/actionbar_notifcation_textview}
+                  android.widget.ListView{9e72356 VFED.VC. F.. 0,168-1080,1704 #7f0e0082 app:id/lv_checkout}
+                    android.widget.RelativeLayout{eb26fd7 V.E..... ... 0,0-1080,330}
+                      android.widget.ImageView{296c9ce V.ED.... ... 30,30-330,330 #7f0e0084 app:id/iv_co_img}
+                      android.widget.LinearLayout{75750c4 V.E..... ... 339,30-1080,87 #7f0e0085 app:id/ll_brand}
+                        android.support.v7.widget.AppCompatTextView{6614bad V.ED.... ... 0,0-124,57}
+                        android.support.v7.widget.AppCompatTextView{14a1ee2 V.ED.... ... 130,0-293,57 #7f0e0086 app:id/tv_co_name}
+                      android.widget.LinearLayout{6c43273 V.E..... ... 339,87-1080,144 #7f0e0087 app:id/ll_size}
+                        android.support.v7.widget.AppCompatTextView{dab530 V.ED.... ... 0,0-93,57}
+                        android.support.v7.widget.AppCompatTextView{373f5a9 V.ED.... ... 99,0-147,57 #7f0e0088 app:id/tv_co_size}
+                      android.widget.LinearLayout{6ef472e V.E..... ... 339,144-1080,201 #7f0e0089 app:id/ll_price}
+                        android.support.v7.widget.AppCompatTextView{72582cf V.ED.... ... 0,0-110,57}
+                        android.support.v7.widget.AppCompatTextView{3edf45c V.ED.... ... 116,0-188,57 #7f0e008a app:id/tv_co_price}
+                      android.widget.LinearLayout{7ed4365 V.E..... ... 339,201-1080,258 #7f0e008b app:id/ll_qty}
+                        android.support.v7.widget.AppCompatTextView{faca83a V.ED.... ... 0,0-172,57}
+                        android.support.v7.widget.AppCompatTextView{ea17ceb V.ED.... ... 178,0-202,57 #7f0e008c app:id/tv_co_count}
+                      android.widget.LinearLayout{793fa48 V.E..... ... 339,258-1080,315}
+                        android.support.v7.widget.AppCompatTextView{bf3b0e1 V.ED.... ... 0,0-106,57}
+                        android.support.v7.widget.AppCompatTextView{5ad0e06 V.ED.... ... 112,0-208,57 #7f0e008d app:id/tv_co_total}
+                  android.support.v7.widget.AppCompatButton{398fcc7 VFED..C. ... 0,1560-1080,1704 #7f0e0083 app:id/btn_chk}
+        android.view.View{e1272f4 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{9997a1d V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.CartActivity 732ee09 pid=11508
+    Local FragmentActivity 1057234 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.CartActivity@1057234
+      mContainer=android.support.v4.app.FragmentActivity$2@8fc0492
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{79e9e63 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{65dca60 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{fd89b19 G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{cd1d7de V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{8d2bdbf V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{8452c8c G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{94ecfd5 V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.LinearLayout{d9f93ea V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{cff76db V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{75e8578 V.ED.... ... 48,43-161,124}
+                    android.support.v7.widget.ActionMenuView{2b99451 V.E..... ... 936,0-1080,168}
+                      android.widget.RelativeLayout{bdb04b6 V.E..... ... 0,0-144,168 #7f0e0108 app:id/badge}
+                        android.widget.ImageView{274a5b7 V.ED.... ... 0,38-92,130 #7f0e00fc app:id/img}
+                        android.support.v7.widget.AppCompatTextView{8b28124 V.ED.... ... 96,38-120,95 #7f0e00fd app:id/actionbar_notifcation_textview}
+                  android.widget.ScrollView{d32248d VFED.... ... 0,168-1080,1704}
+                    android.widget.LinearLayout{78ab642 V.E..... ... 0,0-1080,1742}
+                      android.widget.LinearLayout{2a3e653 V.E..... ... 0,0-1080,812}
+                        android.widget.ImageView{2512f6c V.ED.... ... 327,156-753,656 #7f0e006e app:id/iv_img}
+                      android.widget.LinearLayout{7288b90 V.E..... ... 0,812-1080,1742}
+                        android.widget.LinearLayout{8297c89 V.E..... ... 0,0-833,930}
+                          android.widget.LinearLayout{891f48e V.E..... ... 15,15-833,72}
+                            android.support.v7.widget.AppCompatTextView{27c94af V.ED.... ... 0,0-124,57}
+                            android.support.v7.widget.AppCompatTextView{2b2d0bc V.ED.... ... 133,0-296,57 #7f0e006f app:id/tv_pro_name}
+                          android.widget.LinearLayout{f245845 V.E..... ... 15,87-833,144}
+                            android.support.v7.widget.AppCompatTextView{fbccb9a V.ED.... ... 0,0-93,57}
+                            android.support.v7.widget.AppCompatTextView{c87cccb V.ED.... ... 102,0-150,57 #7f0e0070 app:id/tv_pro_size}
+                          android.widget.LinearLayout{63a3ca8 V.E..... ... 15,159-833,216}
+                            android.support.v7.widget.AppCompatTextView{73733c1 V.ED.... ... 0,0-110,57}
+                            android.support.v7.widget.AppCompatTextView{3e52d2b V.ED.... ... 119,0-191,57 #7f0e0071 app:id/tv_pro_price}
+                          android.widget.LinearLayout{c8c0766 V.E..... ... 15,231-833,288}
+                            android.support.v7.widget.AppCompatTextView{c46aa7 V.ED.... ... 0,0-251,57}
+                            android.support.v7.widget.AppCompatTextView{4a7b54 V.ED.... ... 260,0-431,57 #7f0e0072 app:id/tv_pro_description}
+                          android.widget.LinearLayout{8424afd V.E..... ... 15,303-833,453}
+                            android.support.v7.widget.AppCompatTextView{3c133f2 V.ED.... ... 0,46-172,103}
+                            android.support.v7.widget.AppCompatButton{6430a43 VFED..C. ... 187,15-307,135 #7f0e0073 app:id/btn_minus}
+                            android.support.v7.widget.AppCompatTextView{a7df8c0 V.ED.... ... 322,30-442,120 #7f0e0074 app:id/tv_total}
+                            android.support.v7.widget.AppCompatButton{ded99f9 VFED..C. ... 457,15-577,135 #7f0e0075 app:id/btn_plus}
+                          android.widget.LinearLayout{2aa9d3e V.E..... ... 15,468-322,525}
+                            android.support.v7.widget.AppCompatTextView{a82079f V.ED.... ... 0,0-211,57}
+                            android.support.v7.widget.AppCompatTextView{ba9e0ec V.ED.... ... 211,0-307,57 #7f0e0076 app:id/tv_total_amount}
+                          android.widget.LinearLayout{c64dcb5 V.E..... ... 15,540-678,639}
+                            android.support.v7.widget.AppCompatTextView{b2f4f4a V.ED.... ... 0,21-159,78}
+                            android.support.v7.widget.AppCompatEditText{a897ebb VFED..CL F.. 171,0-471,99 #7f0e0077 app:id/et_coupon}
+                            android.support.v7.widget.AppCompatButton{ca1fd8 VFED..C. ... 483,4-663,94 #7f0e0078 app:id/btn_check}
+                          android.widget.LinearLayout{4d38f31 V.E..... ... 15,654-320,711}
+                            android.support.v7.widget.AppCompatTextView{49b1616 V.ED.... ... 0,0-209,57}
+                            android.support.v7.widget.AppCompatTextView{1c74b97 V.ED.... ... 209,0-305,57 #7f0e0079 app:id/tv_final_price}
+                          android.widget.LinearLayout{8ad6184 V.E..... ... 30,741-803,885}
+                            android.support.v7.widget.AppCompatButton{5a0ed6d VFED..C. ... 0,0-516,144 #7f0e007a app:id/btn_cart}
+                            android.support.v7.widget.AppCompatButton{d2a7da2 GFED..C. ... 414,0-773,144 #7f0e007b app:id/btn_buy}
+                        android.widget.LinearLayout{aab0a33 V.E..... ... 833,0-1080,930}
+                          android.widget.LinearLayout{e6111f0 V.E..... ... 0,30-217,930}
+                            android.widget.ImageView{28c4935 V.ED..C. ... 0,0-300,300 #7f0e007c app:id/img_1}
+                            android.widget.ImageView{80781ca V.ED..C. ... 0,300-300,600 #7f0e007d app:id/img_2}
+                            android.widget.ImageView{f9ff3b V.ED..C. ... 0,600-300,900 #7f0e007e app:id/img_3}
+        android.view.View{26bf369 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{856d1ee V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.MenDetailActivity b284b5e pid=11508
+    Local FragmentActivity ec1d0c8 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.MenDetailActivity@ec1d0c8
+      mContainer=android.support.v4.app.FragmentActivity$2@d02168f
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{e5d5d1c I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{fc75d25 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{5e21efa G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{6138cab V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{2712f08 V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{eb5a6a1 G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{da330c6 V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.RelativeLayout{67c4887 V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{6e33b4 V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{3e50bdd V.ED.... ... 48,43-481,124}
+                    android.support.v7.widget.ActionMenuView{c119352 V.E..... ... 1080,0-1080,168}
+                  android.support.v7.widget.AppCompatSpinner{1cae623 VFED..C. ... 0,168-1080,267 #7f0e00b3 app:id/spn_men_size}
+                    android.support.v7.widget.AppCompatTextView{794d720 V.ED.... ... 0,17-1080,82 #1020014 android:id/text1}
+                  android.support.v7.widget.AppCompatTextView{6ab88d9 V.ED.... ... 0,267-1080,328 #7f0e00b4 app:id/tv_men_category_title}
+                  android.widget.ListView{b91929e VFED.VC. F.. 0,328-1080,1704 #7f0e00b5 app:id/lv_mens_detail}
+                    android.widget.RelativeLayout{bdbc17f V.E...C. ... 0,0-1080,330}
+                      android.widget.ImageView{1f362dc V.ED.... ... 30,30-330,330 #7f0e0097 app:id/img_product}
+                      android.widget.LinearLayout{8c0454c V.E..... ... 360,60-1080,117 #7f0e0085 app:id/ll_brand}
+                        android.support.v7.widget.AppCompatTextView{3c2d995 V.ED.... ... 0,0-124,57}
+                        android.support.v7.widget.AppCompatTextView{6803aaa V.ED.... ... 133,0-296,57 #7f0e0098 app:id/tv_name}
+                      android.widget.LinearLayout{ff4f69b V.E..... ... 360,117-1080,174 #7f0e0087 app:id/ll_size}
+                        android.support.v7.widget.AppCompatTextView{5526a38 V.ED.... ... 0,0-93,57}
+                        android.support.v7.widget.AppCompatTextView{fc47a11 V.ED.... ... 102,0-150,57 #7f0e0099 app:id/tv_size}
+                      android.widget.LinearLayout{dff5776 V.E..... ... 360,174-1080,231}
+                        android.support.v7.widget.AppCompatTextView{da26177 V.ED.... ... 0,0-110,57}
+                        android.support.v7.widget.AppCompatTextView{dff1e4 V.ED.... ... 119,0-191,57 #7f0e009a app:id/tv_price}
+        android.view.View{565a64d V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{1817502 V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.ShopCategoryActivity d7d3803 pid=11508
+    Local Activity 10d9e84 State:
+      mResumed=false mStopped=true mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 404mcc?mnc en_IN ldltr sw360dp w360dp h568dp 480dpi nrml port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@7519e13
+        mContainer=android.app.Activity$HostCallbacks@7519e13
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=22128166 (28 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{19c4850 I.E...... R......D 0,0-1080,1920}
+        android.widget.LinearLayout{b735a49 V.E...... .......D 0,0-1080,1776}
+          android.view.ViewStub{315df4e G.E...... ......I. 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{eae086f V.E...... .......D 0,72-1080,1776 #1020002 android:id/content}
+            android.widget.LinearLayout{b85997c V.E...... .......D 0,0-1080,1704}
+              android.support.v4.view.ViewPager{e8e5205 VFED..... .......D 0,0-1080,750 #7f0e0068 app:id/reviewpager}
+                android.widget.LinearLayout{474a25a V.E...... ......ID 0,0-1080,750}
+                  android.widget.ImageView{abcbc8b V.ED..... ........ 0,0-1080,750 #7f0e00e7 app:id/iv_autoslide}
+              android.widget.TabHost{250d168 VFE...... .......D 0,750-1080,1704 #1020012 android:id/tabhost}
+                android.widget.LinearLayout{aa70981 V.E...... .......D 0,0-1080,954}
+                  android.widget.TabWidget{8ca8a26 VFE...... .......D 0,0-1080,168 #1020013 android:id/tabs}
+                    android.widget.LinearLayout{3b89667 VFE...C.. ..S...ID 0,0-360,168}
+                      android.widget.ImageView{e159c14 G.ED..... ..S...I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{39bcbd V.ED..... ..S..... 122,0-238,168 #1020016 android:id/title}
+                    android.widget.LinearLayout{74522b2 VFE...C.. ......ID 360,0-720,168}
+                      android.widget.ImageView{ae3203 G.ED..... ......I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{eba6580 V.ED..... ........ 89,0-271,168 #1020016 android:id/title}
+                    android.widget.LinearLayout{14a67b9 VFE...C.. ......ID 720,0-1080,168}
+                      android.widget.ImageView{a5eb7fe G.ED..... ......I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{2d7eb5f V.ED..... ........ 135,0-225,168 #1020016 android:id/title}
+                  android.widget.FrameLayout{a2059ac V.E...... .......D 0,168-1080,954 #1020011 android:id/tabcontent}
+                    com.android.internal.policy.PhoneWindow$DecorView{220c675 VFE...... R......D 0,0-1080,786}
+                      android.widget.LinearLayout{7ea560a V.E...... .......D 0,0-1080,786}
+                        android.view.ViewStub{ab9de7b G.E...... ......I. 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+                        android.widget.FrameLayout{10f6498 V.E...... .......D 0,0-1080,786 #1020002 android:id/content}
+                          android.widget.LinearLayout{9c454f1 V.E...... ......ID 0,0-1080,786}
+                            android.support.v4.widget.SwipeRefreshLayout{ddfc8d6 V.ED..... .......D 0,0-1080,786 #7f0e00a4 app:id/swipe_refresh_layout_arrival}
+                              android.widget.ListView{2fde757 VFED.VC.. .F.....D 0,0-1080,786 #7f0e00b2 app:id/lv_mens}
+                                android.widget.RelativeLayout{6e23244 V.E...... ......ID 0,0-1080,330}
+                                  android.widget.ImageView{e717854 V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{e384f2d V.ED..... ........ 345,60-451,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{fe79c62 V.ED..... ......ID 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                                android.widget.RelativeLayout{d0fa1f3 V.E...... ......ID 0,339-1080,669}
+                                  android.widget.ImageView{29feb43 V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{7f22eb0 V.ED..... ........ 345,60-451,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{877b129 V.ED..... ......ID 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                                android.widget.RelativeLayout{1a71cae V.E...... ......ID 0,678-1080,1008}
+                                  android.widget.ImageView{291b23e V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{b786a4f V.ED..... ........ 345,60-562,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{ac385dc V.ED..... ......ID 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                              android.support.v4.widget.CircleImageView{c3136e5 G.ED..... ......ID 456,-168-624,0}
+        android.view.View{9cc55ba V.ED..... ......ID 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{5fb5c6b V.ED..... ......ID 0,0-1080,72 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {7f123c8}
+      Message 0: { when=+443ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      Message 1: { when=+467ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 2, polling=false, quitting=false)
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.CartActivity 748a883 pid=11508
+    Local FragmentActivity f290818 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.CartActivity@f290818
+      mContainer=android.support.v4.app.FragmentActivity$2@f435c61
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{9da1386 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{3715447 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{4d8b474 G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{cf85d9d V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{6b3e212 V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{564ede3 G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{d06a3e0 V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.LinearLayout{1023699 V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{dea0d5e V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{16e853f V.ED.... ... 48,43-161,124}
+                    android.support.v7.widget.ActionMenuView{6621e0c V.E..... ... 936,0-1080,168}
+                      android.widget.RelativeLayout{636a355 V.E..... ... 0,0-144,168 #7f0e0108 app:id/badge}
+                        android.widget.ImageView{3c5a16a V.ED.... ... 0,38-92,130 #7f0e00fc app:id/img}
+                        android.support.v7.widget.AppCompatTextView{450365b V.ED.... ... 96,38-120,95 #7f0e00fd app:id/actionbar_notifcation_textview}
+                  android.widget.ScrollView{c190ef8 VFED.... ... 0,168-1080,1704}
+                    android.widget.LinearLayout{50b1fd1 V.E..... ... 0,0-1080,1742}
+                      android.widget.LinearLayout{6146a36 V.E..... ... 0,0-1080,812}
+                        android.widget.ImageView{d0d6e2b V.ED.... ... 327,156-753,656 #7f0e006e app:id/iv_img}
+                      android.widget.LinearLayout{ad1dd37 V.E..... ... 0,812-1080,1742}
+                        android.widget.LinearLayout{c4c22a4 V.E..... ... 0,0-833,930}
+                          android.widget.LinearLayout{dd0e80d V.E..... ... 15,15-833,72}
+                            android.support.v7.widget.AppCompatTextView{fb4f3c2 V.ED.... ... 0,0-124,57}
+                            android.support.v7.widget.AppCompatTextView{c5d15d3 V.ED.... ... 133,0-296,57 #7f0e006f app:id/tv_pro_name}
+                          android.widget.LinearLayout{47ac510 V.E..... ... 15,87-833,144}
+                            android.support.v7.widget.AppCompatTextView{ab0f809 V.ED.... ... 0,0-93,57}
+                            android.support.v7.widget.AppCompatTextView{8e28a0e V.ED.... ... 102,0-150,57 #7f0e0070 app:id/tv_pro_size}
+                          android.widget.LinearLayout{3593c2f V.E..... ... 15,159-833,216}
+                            android.support.v7.widget.AppCompatTextView{8af223c V.ED.... ... 0,0-110,57}
+                            android.support.v7.widget.AppCompatTextView{db5d539 V.ED.... ... 119,0-191,57 #7f0e0071 app:id/tv_pro_price}
+                          android.widget.LinearLayout{5680bc5 V.E..... ... 15,231-833,288}
+                            android.support.v7.widget.AppCompatTextView{41391a V.ED.... ... 0,0-251,57}
+                            android.support.v7.widget.AppCompatTextView{f476c4b V.ED.... ... 260,0-431,57 #7f0e0072 app:id/tv_pro_description}
+                          android.widget.LinearLayout{16a2628 V.E..... ... 15,303-833,453}
+                            android.support.v7.widget.AppCompatTextView{cc29f41 V.ED.... ... 0,46-172,103}
+                            android.support.v7.widget.AppCompatButton{8a9cce6 VFED..C. ... 187,15-307,135 #7f0e0073 app:id/btn_minus}
+                            android.support.v7.widget.AppCompatTextView{c9e8227 V.ED.... ... 322,30-442,120 #7f0e0074 app:id/tv_total}
+                            android.support.v7.widget.AppCompatButton{c4f7cd4 VFED..C. ... 457,15-577,135 #7f0e0075 app:id/btn_plus}
+                          android.widget.LinearLayout{5d8ee7d V.E..... ... 15,468-322,525}
+                            android.support.v7.widget.AppCompatTextView{7b5d172 V.ED.... ... 0,0-211,57}
+                            android.support.v7.widget.AppCompatTextView{e6719c3 V.ED.... ... 211,0-307,57 #7f0e0076 app:id/tv_total_amount}
+                          android.widget.LinearLayout{b919240 V.E..... ... 15,540-678,639}
+                            android.support.v7.widget.AppCompatTextView{50af579 V.ED.... ... 0,21-159,78}
+                            android.support.v7.widget.AppCompatEditText{10b92be VFED..CL F.. 171,0-471,99 #7f0e0077 app:id/et_coupon}
+                            android.support.v7.widget.AppCompatButton{5978f1f VFED..C. ... 483,4-663,94 #7f0e0078 app:id/btn_check}
+                          android.widget.LinearLayout{1d926c V.E..... ... 15,654-320,711}
+                            android.support.v7.widget.AppCompatTextView{abc7035 V.ED.... ... 0,0-209,57}
+                            android.support.v7.widget.AppCompatTextView{a6a1cca V.ED.... ... 209,0-305,57 #7f0e0079 app:id/tv_final_price}
+                          android.widget.LinearLayout{22ffe3b V.E..... ... 30,741-803,885}
+                            android.support.v7.widget.AppCompatButton{a876958 VFED..C. ... 0,0-516,144 #7f0e007a app:id/btn_cart}
+                            android.support.v7.widget.AppCompatButton{fd0dab1 GFED..C. ... 414,0-773,144 #7f0e007b app:id/btn_buy}
+                        android.widget.LinearLayout{4753b96 V.E..... ... 833,0-1080,930}
+                          android.widget.LinearLayout{a164317 V.E..... ... 0,30-217,930}
+                            android.widget.ImageView{68b3288 V.ED..C. ... 0,0-300,300 #7f0e007c app:id/img_1}
+                            android.widget.ImageView{fda2421 V.ED..C. ... 0,300-300,600 #7f0e007d app:id/img_2}
+                            android.widget.ImageView{969a046 V.ED..C. ... 0,600-300,900 #7f0e007e app:id/img_3}
+        android.view.View{eb5c304 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{de770ed V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.MenDetailActivity a7cfe64 pid=11508
+    Local FragmentActivity b1eae61 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.MenDetailActivity@b1eae61
+      mContainer=android.support.v4.app.FragmentActivity$2@4417b22
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{1b1f9b3 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{64e0b70 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{f572ee9 G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{9a0276e V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{2487e0f V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{de06e9c G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{2ead0a5 V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.RelativeLayout{e2b4c7a V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{a18ec2b V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{8d3d888 V.ED.... ... 48,43-481,124}
+                    android.support.v7.widget.ActionMenuView{f5cd221 V.E..... ... 1080,0-1080,168}
+                  android.support.v7.widget.AppCompatSpinner{911b646 VFED..C. ... 0,168-1080,267 #7f0e00b3 app:id/spn_men_size}
+                    android.support.v7.widget.AppCompatTextView{2382007 V.ED.... ... 0,17-1080,82 #1020014 android:id/text1}
+                  android.support.v7.widget.AppCompatTextView{811f534 V.ED.... ... 0,267-1080,328 #7f0e00b4 app:id/tv_men_category_title}
+                  android.widget.ListView{2936f5d VFED.VC. F.. 0,328-1080,1704 #7f0e00b5 app:id/lv_mens_detail}
+                    android.widget.RelativeLayout{3a2f0d2 V.E...C. ... 0,0-1080,330}
+                      android.widget.ImageView{69b68e5 V.ED.... ... 30,30-330,330 #7f0e0097 app:id/img_product}
+                      android.widget.LinearLayout{62cb5a3 V.E..... ... 360,60-1080,117 #7f0e0085 app:id/ll_brand}
+                        android.support.v7.widget.AppCompatTextView{f7330a0 V.ED.... ... 0,0-124,57}
+                        android.support.v7.widget.AppCompatTextView{89ca459 V.ED.... ... 133,0-296,57 #7f0e0098 app:id/tv_name}
+                      android.widget.LinearLayout{a9b481e V.E..... ... 360,117-1080,174 #7f0e0087 app:id/ll_size}
+                        android.support.v7.widget.AppCompatTextView{94b08ff V.ED.... ... 0,0-93,57}
+                        android.support.v7.widget.AppCompatTextView{5eab6cc V.ED.... ... 102,0-150,57 #7f0e0099 app:id/tv_size}
+                      android.widget.LinearLayout{66a2d15 V.E..... ... 360,174-1080,231}
+                        android.support.v7.widget.AppCompatTextView{82fc82a V.ED.... ... 0,0-110,57}
+                        android.support.v7.widget.AppCompatTextView{5d1361b V.ED.... ... 119,0-191,57 #7f0e009a app:id/tv_price}
+        android.view.View{c7273b8 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{44d8591 V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.ShopCategoryActivity e3f93d2 pid=11508
+    Local Activity 3ee788f State:
+      mResumed=false mStopped=true mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 404mcc?mnc en_IN ldltr sw360dp w360dp h568dp 480dpi nrml port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@2da3cf6
+        mContainer=android.app.Activity$HostCallbacks@2da3cf6
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=22128166 (68 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{1c318f7 I.E...... R......D 0,0-1080,1920}
+        android.widget.LinearLayout{7b71364 V.E...... .......D 0,0-1080,1776}
+          android.view.ViewStub{433e9cd G.E...... ......I. 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{ce53282 V.E...... .......D 0,72-1080,1776 #1020002 android:id/content}
+            android.widget.LinearLayout{5864d93 V.E...... .......D 0,0-1080,1704}
+              android.support.v4.view.ViewPager{88401d0 VFED..... .......D 0,0-1080,750 #7f0e0068 app:id/reviewpager}
+                android.widget.LinearLayout{fa255c9 V.E...... ......ID 0,0-1080,750}
+                  android.widget.ImageView{b7f4ce V.ED..... ........ 0,0-1080,750 #7f0e00e7 app:id/iv_autoslide}
+              android.widget.TabHost{3e2fef VFE...... .......D 0,750-1080,1704 #1020012 android:id/tabhost}
+                android.widget.LinearLayout{eef6afc V.E...... .......D 0,0-1080,954}
+                  android.widget.TabWidget{9718585 VFE...... .......D 0,0-1080,168 #1020013 android:id/tabs}
+                    android.widget.LinearLayout{5e28fda VFE...C.. ..S...ID 0,0-360,168}
+                      android.widget.ImageView{5e7dc0b G.ED..... ..S...I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{4463ae8 V.ED..... ..S..... 122,0-238,168 #1020016 android:id/title}
+                    android.widget.LinearLayout{f49f501 VFE...C.. ......ID 360,0-720,168}
+                      android.widget.ImageView{ae9cfa6 G.ED..... ......I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{3362de7 V.ED..... ........ 89,0-271,168 #1020016 android:id/title}
+                    android.widget.LinearLayout{7b81d94 VFE...C.. ......ID 720,0-1080,168}
+                      android.widget.ImageView{6dfe03d G.ED..... ......I. 0,0-0,0 #1020006 android:id/icon}
+                      android.widget.TextView{fd34032 V.ED..... ........ 135,0-225,168 #1020016 android:id/title}
+                  android.widget.FrameLayout{32dc183 V.E...... .......D 0,168-1080,954 #1020011 android:id/tabcontent}
+                    com.android.internal.policy.PhoneWindow$DecorView{9c37f00 VFE...... R......D 0,0-1080,786}
+                      android.widget.LinearLayout{2ef4339 V.E...... .......D 0,0-1080,786}
+                        android.view.ViewStub{d712d7e G.E...... ......I. 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+                        android.widget.FrameLayout{280f2df V.E...... .......D 0,0-1080,786 #1020002 android:id/content}
+                          android.widget.LinearLayout{2618b2c V.E...... ......ID 0,0-1080,786}
+                            android.support.v4.widget.SwipeRefreshLayout{bf7d9f5 V.ED..... .......D 0,0-1080,786 #7f0e00a4 app:id/swipe_refresh_layout_arrival}
+                              android.widget.ListView{56ea38a VFED.VC.. .F....ID 0,0-1080,786 #7f0e00b2 app:id/lv_mens}
+                                android.widget.RelativeLayout{cabddfb V.E...... ......ID 0,0-1080,330}
+                                  android.widget.ImageView{45d92c0 V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{df22e18 V.ED..... ........ 345,60-451,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{8b92071 V.ED..... ........ 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                                android.widget.RelativeLayout{71b6e56 V.E...... ......ID 0,339-1080,669}
+                                  android.widget.ImageView{3fc8eb5 V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{ed05ed7 V.ED..... ........ 345,60-451,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{ce813c4 V.ED..... ........ 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                                android.widget.RelativeLayout{26e52ad V.E...... ......ID 0,678-1080,1008}
+                                  android.widget.ImageView{fd08016 V.ED..... ........ 30,30-330,330 #7f0e007f app:id/iv_category}
+                                  android.widget.TextView{4f819e2 V.ED..... ........ 345,60-562,117 #7f0e0080 app:id/tv_mens_category}
+                                  android.widget.TextView{c521173 V.ED..... ........ 345,132-345,189 #7f0e0081 app:id/tv_mens_pricerange}
+                              android.support.v4.widget.CircleImageView{234a830 G.ED..... ......ID 456,-168-624,0}
+        android.view.View{ca6ca9 V.ED..... ......ID 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{701f22e V.ED..... ......ID 0,0-1080,72 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {7f123c8}
+      Message 0: { when=+404ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      Message 1: { when=+428ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 2, polling=false, quitting=false)
+
+  ACTIVITY com.tritonitsolutions.layaltydemo/com.tritonitsolutions.loyaltydemo.MainActivity 3d93fa5 pid=11508
+    Local FragmentActivity 7d6ff59 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.tritonitsolutions.loyaltydemo.MainActivity@7d6ff59
+      mContainer=android.support.v4.app.FragmentActivity$2@13251cf
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{c74175c I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{9b42a65 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{5bf033a G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{e2c3beb V.E..... ... 0,72-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{5d94d48 V.E..... ... 0,0-1080,1704 #7f0e0052 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{c207e1 G.E..... ... 0,0-0,0 #7f0e0053 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{a0a1906 V.E..... ... 0,0-1080,1704 #1020002 android:id/content}
+                android.widget.RelativeLayout{a90abc7 V.E..... ... 0,0-1080,1704}
+                  android.support.v7.widget.Toolbar{6d9f5f4 V.E..... ... 0,0-1080,168 #7f0e0066 app:id/tool_bar}
+                    android.widget.TextView{276411d V.ED.... ... 180,43-613,124}
+                    android.widget.ImageButton{d9ebf92 VFED..C. ... 0,0-168,168}
+                    android.support.v7.widget.ActionMenuView{7e23d63 V.E..... ... 1080,0-1080,168}
+                  android.support.v4.widget.DrawerLayout{79a7d60 VFE..... F.. 0,168-1080,1704 #7f0e0067 app:id/DrawerLayout}
+                    android.widget.ScrollView{73ad219 VFED.... ... 0,0-1080,1536}
+                      android.widget.LinearLayout{86542de V.E..... ... 0,0-1080,1820}
+                        android.widget.LinearLayout{3314cbf V.E..... ... 0,0-1080,1820}
+                          android.support.v4.view.ViewPager{c1a0f8c VFED.... ... 0,0-1080,750 #7f0e0068 app:id/reviewpager}
+                            android.widget.LinearLayout{a1d76d5 V.E..... ... 0,0-1080,750}
+                              android.widget.ImageView{67eaeea V.ED.... ... 0,0-1080,750 #7f0e00e7 app:id/iv_autoslide}
+                          android.widget.LinearLayout{37f5db V.E..... ... 0,780-1080,856}
+                            android.widget.ImageView{71e9878 V.ED.... ... 0,0-157,76}
+                            android.support.v7.widget.AppCompatTextView{f4bab51 V.ED.... ... 157,0-851,57}
+                            android.support.v7.widget.AppCompatTextView{310cfb6 V.ED.... ... 851,0-1080,57}
+                          android.widget.LinearLayout{a3614b7 V.E..... ... 0,886-1080,1338}
+                            android.widget.LinearLayout{fe0c424 V.E..... ... 0,0-525,452}
+                              android.widget.LinearLayout{64eab8d V.E...C. ... 144,62-380,298 #7f0e0069 app:id/iv_loyalty}
+                              android.support.v7.widget.AppCompatTextView{3d23142 V.ED.... ... 173,328-352,389}
+                            android.widget.LinearLayout{68d4553 V.E..... ... 555,0-1080,452}
+                              android.widget.LinearLayout{677fe90 V.E...C. ... 171,62-353,298 #7f0e006a app:id/iv_shop}
+                              android.widget.LinearLayout{4077389 V.E..... ... 203,328-321,389}
+                                android.support.v7.widget.AppCompatTextView{1561f8e V.ED.... ... 0,0-118,61}
+                          android.widget.LinearLayout{51ce3af V.E..... ... 0,1368-1080,1820}
+                            android.widget.LinearLayout{30673bc V.E..... ... 0,0-525,452}
+                              android.widget.LinearLayout{6abf45 V.E...C. ... 145,63-379,297 #7f0e006b app:id/iv_new_arrival}
+                              android.widget.LinearLayout{818a69a V.E..... ... 119,327-405,388}
+                                android.support.v7.widget.AppCompatTextView{a5e0bcb V.ED.... ... 0,0-286,61}
+                            android.widget.LinearLayout{ba50fa8 V.E..... ... 555,0-1080,452}
+                              android.widget.LinearLayout{3fd0ac1 V.E...C. ... 144,61-381,299 #7f0e006c app:id/iv_notification}
+                              android.widget.LinearLayout{e4a9266 V.E..... ... 115,329-410,390}
+                                android.support.v7.widget.AppCompatTextView{f3f99a7 V.ED.... ... 0,0-295,61}
+                    android.support.v7.widget.RecyclerView{d0f7e54 I.ED.V.. ... -888,0-0,1536 #7f0e006d app:id/RecyclerView}
+                      android.widget.RelativeLayout{10e91fd V.E...C. ... 0,0-888,600}
+                        android.widget.LinearLayout{a5d6ef2 V.E..... ... 0,0-888,600}
+                          android.support.v7.widget.AppCompatTextView{2c22943 V.ED.... ... 392,269-495,330 #7f0e0098 app:id/tv_name}
+                        android.widget.LinearLayout{2102bc0 V.E..... ... 0,30-888,600}
+                          de.hdodenhof.circleimageview.CircleImageView{4b750f9 V.ED.... ... 339,0-549,210 #7f0e00a1 app:id/circleView}
+                      android.widget.LinearLayout{64f883e V.E...C. ... 0,630-261,739}
+                        android.widget.ImageView{954169f V.ED.... ... 0,28-96,80 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{5ac43ec V.ED.... ... 96,24-261,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{b9303b5 V.E...C. ... 0,769-233,878}
+                        android.widget.ImageView{bb7ea4a V.ED.... ... 0,29-94,79 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{5ed7dbb V.ED.... ... 94,24-233,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{c0fb2d8 V.E...C. ... 0,908-403,1017}
+                        android.widget.ImageView{63d2631 V.ED.... ... 0,27-99,82 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{4926116 V.ED.... ... 99,24-403,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{8ec3a97 V.E...C. ... 0,1047-388,1156}
+                        android.widget.ImageView{e392484 V.ED.... ... 0,26-84,82 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{98cf46d V.ED.... ... 84,24-388,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{ccb78a2 V.E...C. ... 0,1186-273,1295}
+                        android.widget.ImageView{afe933 V.ED.... ... 0,30-99,79 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{46604f0 V.ED.... ... 99,24-273,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{6916a69 V.E...C. ... 0,1325-329,1434}
+                        android.widget.ImageView{8c7cee V.ED.... ... 0,29-99,79 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{7f5e58f V.ED.... ... 99,24-329,85 #7f0e00a3 app:id/rowText}
+                      android.widget.LinearLayout{b3e801c V.E...C. ... 0,1464-308,1573}
+                        android.widget.ImageView{64d4425 V.ED.... ... 0,30-100,78 #7f0e00a2 app:id/rowIcon}
+                        android.support.v7.widget.AppCompatTextView{34779fa V.ED.... ... 100,24-308,85 #7f0e00a3 app:id/rowText}
+        android.view.View{df54bab V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{fc18208 V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}

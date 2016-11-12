@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:id="@+id/lv_customer_history"
+    android:divider="#F0F0F0"
+    android:layout_weight="1.5"
+    android:dividerHeight="3.0sp">
+
+</ListView>
+</android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
